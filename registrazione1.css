@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0186C5;
+    background-image: url(Images/wallpaperflare.com_wallpaper.jpg);
+    background-size: 105%;
+}
+
+section#sezioneRegistrazione{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+
+div#riquadroRegistrazione {
+    padding: 5%;
+    border-radius: 5%;
+    background-color: white;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+div#riquadroRegistrazione div#immagineLogo{
+    height: 5%;
+    width: 100%;
+    margin-top: -20%;
+    display: flex;
+    justify-content: center;
+}
+
+div#riquadroRegistrazione p{
+    font-size: 140%;
+}
+
+div#riquadroRegistrazione input{
+    width: 100%;
+    padding: 5%;
+    margin-top: 10%;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+div#riquadroRegistrazione input#spunta{
+    margin-bottom: 10%;
+    margin-top: 0;
+}
+
+div#riquadroRegistrazione button{
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 1%;
+    border: none;
+    border-radius: 10px; 
+    background-color: red; 
+    color: #fff;
+    font-size: 100%; 
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+div#riquadroRegistrazione button:hover {
+    background-color: #DF3744;
+}
+
+div#accettaCondizioni{
+    display: flex;
+    width: 100%;
+    text-align: left;
+    font-size: 120%;
+    font-weight: normal;
+    margin: 10% auto 10% auto;
+}
+
+div#accettaCondizioni input{
+    width: 10%;
+    height: 40%;
+}
+
+div#accettaCondizioni label{
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+.errors {
+    color: red;
+    font-size: 0.9em;
+}
+.messaggiErrore {
+    display: none;
+}
+.errors .messaggiErrore {
+    display: block;
+}
+
+
+@media (max-width: 412px){
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        background-color: #0186C5;
+        background-image: url(Images/wallpaperflare.com_wallpaper.jpg);
+        background-size: cover;
+    }
+
+    section#sezioneRegistrazione{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    div#riquadroRegistrazione {
+        padding: 5%;
+        border-radius: 5%;
+        background-color: white;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    div#riquadroRegistrazione div#immagineLogo{
+        height: 10%;
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    div#riquadroRegistrazione p{
+        font-size: 100%;
+    }
+
+    div#riquadroRegistrazione input{
+        width: 100%;
+        padding: 5%;
+        margin-top: 10%;
+        border: 1px solid red;
+        border-radius: 10px;
+        box-sizing: border-box;
+        font-size: 80%;
+    }
+
+    div#riquadroRegistrazione input#spunta{
+        margin-bottom: 10%;
+        margin-top: 0;
+    }
+
+    div#riquadroRegistrazione button{
+        width: 100%;
+        padding: 5%;
+        margin-bottom: 1%;
+        border: none;
+        border-radius: 10px; 
+        background-color: red; 
+        color: #fff;
+        font-size: 80%; 
+        cursor: pointer;
+        transition-property: background-color;
+        transition-duration: .3s;
+    }
+
+    div#riquadroRegistrazione button:hover {
+        background-color: #DF3744;
+    }
+
+    div#accettaCondizioni{
+        display: flex;
+        width: 100%;
+        text-align: left;
+        font-size: 80%;
+        font-weight: normal;
+        margin: 10% auto 10% auto;
+    }
+
+    div#accettaCondizioni input{
+        width: 10%;
+        height: 40%;
+    }
+
+    div#accettaCondizioni label{
+        margin-left: 5%;
+        margin-top: -2%;
+    }
+
+    .errors {
+        color: red;
+        font-size: 0.9em;
+    }
+    
+    .messaggiErrore {
+        display: none;
+    }
+    
+    .errors .messaggiErrore {
+        display: block;
+    }
+}
+
+
